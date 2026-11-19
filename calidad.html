@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calidad en la Gestión | ITLA Cyber</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --azul-oscuro: #050510;
+            --azul-brillante: #00d4ff;
+            --oro: #ffcc00;
+            --glass: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--azul-oscuro);
+            color: white;
+        }
+
+        .navbar {
+            background-color: rgba(10, 10, 20, 0.95);
+            border-bottom: 1px solid rgba(0, 212, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        /* Header Estilo Certificación */
+        .quality-header {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.1) 0%, transparent 100%);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 25px;
+            padding: 50px;
+            margin-bottom: 50px;
+        }
+
+        /* Tarjetas de Actividades */
+        .activity-item {
+            background: var(--glass);
+            border-left: 4px solid var(--azul-brillante);
+            padding: 15px 20px;
+            margin-bottom: 15px;
+            border-radius: 0 15px 15px 0;
+            transition: 0.3s;
+        }
+
+        .activity-item:hover {
+            background: rgba(0, 212, 255, 0.05);
+            transform: translateX(10px);
+        }
+
+        /* Timeline de Premios */
+        .award-card {
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 204, 0, 0.2);
+            padding: 20px;
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .award-card i { color: var(--oro); font-size: 2rem; }
+        
+        .award-card:hover {
+            border-color: var(--oro);
+            box-shadow: 0 0 20px rgba(255, 204, 0, 0.1);
+        }
+
+        /* Documentos Rápidos */
+        .doc-link {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: rgba(0, 212, 255, 0.05);
+            border: 1px solid rgba(0, 212, 255, 0.2);
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 10px;
+            transition: 0.3s;
+        }
+
+        .doc-link:hover {
+            background: var(--azul-brillante);
+            color: var(--azul-oscuro);
+        }
+
+        .btn-submit {
+            background: var(--azul-brillante);
+            border: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html" style="color: var(--azul-brillante);">ITLA CALIDAD</a>
+            <a href="index.html" class="btn btn-outline-info btn-sm rounded-pill px-3">Inicio</a>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <div class="quality-header text-center shadow-lg">
+            <div class="mb-4">
+                <i class="bi bi-patch-check-fill" style="font-size: 4rem; color: var(--azul-brillante);"></i>
+            </div>
+            <h1 class="display-5 fw-bold mb-3">Garantía de <span style="color: var(--azul-brillante);">Calidad Interna</span></h1>
+            <p class="lead mx-auto" style="max-width: 800px;">
+                Comprometidos con la satisfacción de nuestros clientes a través de la mejora continua y el cumplimiento de estándares internacionales <span class="fw-bold">ISO 9001:2015</span>.
+            </p>
+        </div>
+<h1><strong>En la gestión</strong> </h1>
+<p>En el ITLA estamos comprometidos con la satisfacción de nuestros clientes,
+    a través de la mejora contínua de nuestros procesos. El Departamento de 
+    Calidad en la Gestión, es el encargado del sistema de garantía interno de 
+    calidad. Vela por el cumplimiento de las políticas y procedimientos institucionales.</p>
+
+    <br>
+    
+
+    <h2><strong>Actividades:</strong> </h2>
+    <p>Seguimiento a los procesos institucionales
+        <li>Mide y evalúa la satisfacción de los servicios académicos</li>
+        <li>Mide y evalúa la satisfacción docente</li>
+        <li> Recibe y canaliza las quejas y sugerencias</li>
+        <li>Seguimiento al cumplimiento de políticas y normas ISO 9001-2015</li></p>
+
+        
+    <br>
+    <br>
+
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <h3 class="fw-bold mb-4 border-bottom border-info pb-2"><i class="bi bi-gear-wide-connected me-2"></i>Gestión de Procesos</h3>
+                
+                <div class="activity-item">
+                    <i class="bi bi-search me-3 text-info"></i> Seguimiento a los procesos institucionales
+                </div>
+                <div class="activity-item">
+                    <i class="bi bi-graph-up-arrow me-3 text-info"></i> Evaluación de satisfacción académica y docente
+                </div>
+                <div class="activity-item">
+                    <i class="bi bi-chat-left-dots me-3 text-info"></i> Canalización de quejas y sugerencias
+                </div>
+                <div class="activity-item">
+                    <i class="bi bi-shield-check me-3 text-info"></i> Cumplimiento de normas ISO 9001-2015
+                </div>
+                <div class="activity-item">
+                    <i class="bi bi-file-earmark-ruled me-3 text-info"></i> Seguimiento a la Carta Compromiso al Ciudadano
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="p-4 rounded-4" style="background: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255,255,255,0.1);">
+                    <h5 class="fw-bold mb-4 text-info">Recursos y Documentos</h5>
+                    <a href="#" class="doc-link">
+                        <i class="bi bi-file-earmark-pdf fs-4 me-3"></i> Plan Estratégico Institucional
+                    </a>
+                    <a href="#" class="doc-link">
+                        <i class="bi bi-diagram-3 fs-4 me-3"></i> Mapa de Procesos (Aprobado)
+                    </a>
+                    <a href="#" class="doc-link">
+                        <i class="bi bi-envelope-paper fs-4 me-3"></i> Carta Compromiso al Ciudadano
+                    </a>
+                </div>
+                
+                <div class="mt-4 p-4 rounded-4 bg-info bg-opacity-10 border border-info border-opacity-25 text-center">
+                    <h6 class="fw-bold mb-1">¿Tienes una queja o sugerencia?</h6>
+                    <p class="small text-secondary mb-3">Ayúdanos a mejorar nuestros servicios.</p>
+                    <a href="contactos.html" class="btn btn-info btn-sm rounded-pill px-4 fw-bold">IR AL PORTAL</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5 pt-5">
+            <h2 class="text-center fw-bold mb-5">Trayectoria de <span style="color: var(--oro);">Excelencia</span></h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="award-card text-center">
+                        <i class="bi bi-trophy mb-3"></i>
+                        <h6 class="fw-bold">MESCYT 2024</h6>
+                        <p class="small text-secondary">Premio de Excelencia Académica (Evaluación Quinquenal).</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="award-card text-center" style="border-color: var(--oro);">
+                        <i class="bi bi-award-fill mb-3"></i>
+                        <h6 class="fw-bold">Gran Premio Nacional</h6>
+                        <p class="small text-secondary">Máximo galardón a la Calidad (2012).</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="award-card text-center">
+                        <i class="bi bi-star-fill mb-3 text-info"></i>
+                        <h6 class="fw-bold">SISMAP 2023</h6>
+                        <p class="small text-secondary">3er Lugar Ranking Trayectoria de Calidad.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-4 p-3 rounded-pill bg-dark border border-secondary border-opacity-25 text-center">
+                <span class="small text-secondary">Histórico Medallas Nacionales:</span>
+                <span class="badge rounded-pill bg-warning text-dark mx-2">Oro (2008, 2009, 2010)</span>
+                <span class="badge rounded-pill bg-secondary mx-2 text-white">Plata (2006)</span>
+            </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center pt-5">
+            <div class="col-md-8">
+                <div class="p-5 rounded-4" style="background: var(--glass); border: 1px solid rgba(0, 212, 255, 0.1);">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h4 class="fw-bold mb-3">Contacto <span class="text-info">Calidad</span></h4>
+                            <p class="small text-secondary">Escríbenos directamente para consultas sobre normativas ISO o procesos de mejora.</p>
+                            <p class="mb-1 fw-bold"><i class="bi bi-envelope me-2"></i>calidad@itla.edu.do</p>
+                            <p class="fw-bold"><i class="bi bi-telephone me-2"></i>809-738-4852</p>
+                        </div>
+                        <div class="col-md-7 border-start border-secondary border-opacity-25 ps-md-4">
+                            <form>
+                                <div class="mb-2">
+                                    <input type="text" class="form-control bg-transparent text-white" placeholder="Nombre">
+                                </div>
+                                <div class="mb-2">
+                                    <input type="email" class="form-control bg-transparent text-white" placeholder="Correo">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control bg-transparent text-white" rows="2" placeholder="Comentarios"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-info w-100 rounded-pill btn-submit">ENVIAR SOLICITUD</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 text-center border-top border-secondary border-opacity-25">
+        <p class="small text-secondary"> 2026 ITLA - Departamento de Calidad en la Gestión</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
